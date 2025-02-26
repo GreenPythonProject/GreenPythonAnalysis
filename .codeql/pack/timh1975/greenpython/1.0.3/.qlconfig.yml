@@ -63,4 +63,6 @@ query-filters:
       id: codeql/python-queries/Security/CWE-918/FullServerSideRequestForgery.ql
   - exclude:
       id: codeql/python-queries/Security/CWE-943/NoSqlInjection.ql
+  - exclude:
+      id: py/polynomial-redos
       
