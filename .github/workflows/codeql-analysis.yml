@@ -54,7 +54,7 @@ jobs:
         uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
-          packs: ./codeql-queries
+          packs: ./codeql/pack/timh1975_greenpython/1.0.3./qlconfig.yml
           config-file: .qlconfig.yml
 
       - name: Perform CodeQL Analysis
