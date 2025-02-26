@@ -1,1 +1,3 @@
-disable-default-queries: true
+query-filters:
+  - exclude:
+      packs: codeql/python-queries
