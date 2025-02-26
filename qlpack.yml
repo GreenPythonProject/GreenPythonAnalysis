@@ -3,3 +3,6 @@ library: false
 warnOnImplicitThis: false
 name: timh1975/greenpython
 version: 1.0.0
+dependencies:
+  codeql/python-all: "*"
+
