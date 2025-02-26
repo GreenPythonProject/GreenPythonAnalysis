@@ -1,6 +1,6 @@
 {
     "name": "greenpython",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "requires": true,
     "packages": {},
     "repository": {
@@ -8,6 +8,6 @@
         "url": "https://registry.com/npmjs.org/@tim1975/greenpython"
     },
     "dependencies": {
-        "@timh1975/greenpython": "1.0.0"
+        "@timh1975/greenpython": "1.0.1"
     }
 }
