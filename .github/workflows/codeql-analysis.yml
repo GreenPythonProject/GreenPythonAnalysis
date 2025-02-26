@@ -55,6 +55,7 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           queries: ./codeql-queries
+          config-file: .qlconfig.yml
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
