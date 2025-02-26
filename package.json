@@ -8,6 +8,6 @@
         "url": "https://registry.com/npmjs.org/@tim1975/greenpython"
     },
     "dependencies": {
-        "@timh1975/greenpython": "1.0.1"
+        "@timh1975/greenpython": "1.0.3"
     }
 }
