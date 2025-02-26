@@ -1,5 +1,0 @@
----
-library: false
-warnOnImplicitThis: false
-name: greenpython
-version: 0.0.1
