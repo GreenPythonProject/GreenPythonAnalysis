@@ -7,4 +7,3 @@ dependencies:
   codeql/python-all: "*"
 libraryPathDependencies:
   - codeql/python-all
-
