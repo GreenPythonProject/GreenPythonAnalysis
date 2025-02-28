@@ -65,10 +65,19 @@ jobs:
         uses: github/codeql-action/analyze@v3
         with:
           category: "/language:${{ matrix.language }}"
+
+      - name: Upload SARIF results
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: codeql-results.sarif
           
+      - name: set SARIF file environment
+        run: echo "INPUT_FILENAME=codeql-results.sarif" >> $GITHUB_ENV
+
       - name: Filter Sarif File
-        run: | 
-          INPUT_FILENAME=${{ "test "}} python3 .github/workflows/filter_sarif.py
+        run: python3. .github/workflows/filter_sarif.py
+        env:
+          INPUT_FILENAME: ${{ env.INPUT_FILENAME }}
 
 
       
