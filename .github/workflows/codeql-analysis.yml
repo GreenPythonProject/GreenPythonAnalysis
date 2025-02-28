@@ -65,7 +65,6 @@ jobs:
           category: "/language:${{ matrix.language }}"
           
       - name: Filter Sarif File
-        id: filter
         run: python scr/sarif_filter.py
         shell: bash
         
