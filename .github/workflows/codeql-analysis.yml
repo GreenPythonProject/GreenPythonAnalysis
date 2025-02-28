@@ -11,14 +11,11 @@
 #
 name: "CodeQL Advanced"
 
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-    
-
 
 permissions:
   contents: read
@@ -26,8 +23,6 @@ permissions:
   packages: read
   actions: read
 
-
-  
 jobs:
   analyze:
     name: Analyze
@@ -56,6 +51,7 @@ jobs:
         uses: github/codeql-action/init@v2
         with:
             languages: python
+
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
         with:
@@ -75,7 +71,7 @@ jobs:
         run: echo "INPUT_FILENAME=codeql-results.sarif" >> $GITHUB_ENV
 
       - name: Filter Sarif File
-        run: python3. .github/workflows/filter_sarif.py
+        run: python3 .github/workflows/filter_sarif.py
         env:
           INPUT_FILENAME: ${{ env.INPUT_FILENAME }}
 
