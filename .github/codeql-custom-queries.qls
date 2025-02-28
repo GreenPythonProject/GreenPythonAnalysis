@@ -1,0 +1,6 @@
+- security-extended
+- security-and-quality
+- codeql/python-queries/Security
+- exclude:
+    - codeql/python-queries/Security/HardcodedCredentials
+    - codeql/python-queries/Security/SqlInjection

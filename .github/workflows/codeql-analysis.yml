@@ -51,14 +51,21 @@ jobs:
           python-version: 3.12  # Modify as needed
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@v2
         with:
-          languages: ${{ matrix.language }}
-          packs: ./codeql/pack/timh1975_greenpython/1.0.3./qlconfig.yml
-          config-file: .qlconfig.yml
+            languages: python
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+        with:
+            category: "/language:python"
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
         with:
           category: "/language:${{ matrix.language }}"
-
+          
+      - name: Filter Sarif File
+        id: filter
+        run: python scr/sarif_filter.py
+        shell: bash
+        
