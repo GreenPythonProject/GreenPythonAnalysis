@@ -1,9 +1,9 @@
 /**
- * @id py/examples/insert
+ * @id green-python
  * @name List Insert
  * @description List Append found.
  * @kind problem
- * @tags print, builtin
+ * @tags security
  * @severity warning
  */
 

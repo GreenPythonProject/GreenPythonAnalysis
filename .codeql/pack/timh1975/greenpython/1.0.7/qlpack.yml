@@ -1,0 +1,9 @@
+---
+library: false
+warnOnImplicitThis: false
+name: timh1975/greenpython
+version: 1.0.7
+buildMetadata:
+  cliVersion: 2.20.2
+dependencies:
+  codeql/python-all: '*'

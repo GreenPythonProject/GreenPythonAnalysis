@@ -1,5 +1,5 @@
 /**
- * @id py/examples/insert
+ * @id @id green-python
  * @name List Append
  * @description List Append found.
  * @kind problem
