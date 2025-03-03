@@ -1,5 +1,5 @@
 /** 
- * @name Hello World
+ * @name GreenPython
  * @kind problem
  * @problem.severity warning
  * @id python/example/goodbye
