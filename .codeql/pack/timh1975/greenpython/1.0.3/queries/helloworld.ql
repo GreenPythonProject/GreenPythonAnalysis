@@ -1,4 +1,5 @@
 /** 
+ * @rule GreenPython
  * @name Hello World
  * @kind problem
  * @problem.severity warning
