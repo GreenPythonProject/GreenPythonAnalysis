@@ -1,0 +1,11 @@
+---
+library: true
+warnOnImplicitThis: true
+name: codeql/yaml
+version: 1.0.17
+buildMetadata:
+  sha: 975881c74a74d3965e1690c9c24d82b581336b0c
+  cliVersion: 2.20.5
+dependencies: {}
+groups:
+ - shared

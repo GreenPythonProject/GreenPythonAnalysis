@@ -1,5 +1,5 @@
 /**
- * @id @id green-python
+ * @id green-python
  * @name List Append
  * @description List Append found.
  * @kind problem

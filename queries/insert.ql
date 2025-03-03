@@ -13,4 +13,4 @@
  
  from MethodCallNode insertCall
  where insertCall.getMethodName() = "insert"
- select insertCall, "List Append Found"
+ select insertCall, "List Insert Found"
