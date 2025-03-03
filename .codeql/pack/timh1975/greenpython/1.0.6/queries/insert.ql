@@ -1,6 +1,6 @@
 /**
  * @id py/examples/insert
- * @name List Append
+ * @name List Insert
  * @description List Append found.
  * @kind problem
  * @tags print, builtin
@@ -12,5 +12,5 @@
  import python
  
  from MethodCallNode insertCall
- where insertCall.getMethodName() = "append"
+ where insertCall.getMethodName() = "insert"
  select insertCall, "List Append Found"
