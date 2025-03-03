@@ -2,6 +2,7 @@
  * @id py/examples/insert
  * @name List Append
  * @description List Append found.
+ * @kind problem
  * @tags print, builtin
  */
 
