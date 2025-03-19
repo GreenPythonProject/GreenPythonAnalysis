@@ -133,5 +133,14 @@ main: src/*.*
 
 ![image](https://github.com/user-attachments/assets/881aa1e2-a9fb-457c-a671-19c515b2e2aa)
 
-7. 
+
+7. Information from the output
+
+   ![image](https://github.com/user-attachments/assets/713c1daa-4127-4392-9618-460bfb389668)
+
+Column A - Rule:  Keep this as green-python. This allows the output to identify that it relates to the Green Python static analysis tool.  
+Column B - Description: This will be the description of what piece of code was considered energy inefficient and provide recommendations.  
+Column C-  directory and file in which the code block as found
+Column D/E - Line Number and column end number of line of code
+
 
