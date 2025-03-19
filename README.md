@@ -1,6 +1,6 @@
 # greenpython #
 
-## GreenPython is a static analysis tool that scans Python Scripts for energy inefficient code**
+## GreenPython is a static analysis tool that scans Python Scripts for energy inefficient code ##
 
 **Instructions on how to use static analysis tool**
 
