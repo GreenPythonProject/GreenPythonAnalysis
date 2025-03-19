@@ -116,17 +116,10 @@ jobs:
       run: |
           echo "total json: ${{ steps.total-measurement-step.outputs.data-total-json }}"    
 
-4.  Create a action.yml file in the root directory and place the following code in it
+        
+        
 
-name: "Green Python"
-description: "Demo for Green Python"
 
-runs:
-  using: node22
-  main: src/*.*
-
-queries:
-  disable-default-queries: true
 
 
 5. Place your python files to scan in a specific folder.  Edit the following in action.yml if you are not using the default src/ folder
