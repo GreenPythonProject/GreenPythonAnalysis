@@ -130,7 +130,7 @@ jobs:
       run: |
           echo "total json: ${{ steps.total-measurement-step.outputs.data-total-json }}"    
 
-'''        
+```    
         
 
 5. Place your python files to scan in a specific folder.  Edit the following in action.yml if you are not using the default src/ folder
