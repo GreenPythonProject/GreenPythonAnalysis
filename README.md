@@ -2,7 +2,7 @@
 
 GreenPython is a static analysis tool that scans Python Scripts for energy inefficient code
 
-** Instructions on how to use static analysis tool **]
+** Instructions on how to use static analysis tool **
 
 1.  Create a workflow folder called .github/workflows in the root of your project.
 2.  Create a file in the workflows folder called codeql-config.yml.
@@ -133,18 +133,14 @@ jobs:
 '''        
         
 
-
-
-
 5. Place your python files to scan in a specific folder.  Edit the following in action.yml if you are not using the default src/ folder
 
- main: src/*.*   
+'''
+main: src/*.*   
+'''        
         
-        
 
+6. output from scan are found in the Upload filtered SARIF file as artfifact (for download). The link to the .csv file output is in line 34
 
+![image](https://github.com/user-attachments/assets/881aa1e2-a9fb-457c-a671-19c515b2e2aa)
 
-
-5. Place your python files to scan in a specific folder.  Edit the following in action.yml if you are not using the default src/ folder
-
- main: src/*.*   
