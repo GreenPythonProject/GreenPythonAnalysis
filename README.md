@@ -122,7 +122,7 @@ jobs:
 ```    
         
 
-5. Place your python files to scan in a specific folder.  Edit the following in action.yml if you are not using the default src/ folder
+5. In the root folder, create an action.yml file and place the following code
 
 ```
 name: "Green Python"
@@ -136,7 +136,7 @@ queries:
   disable-default-queries: true
 ```
 
-If you are using a different folder for your Python scripts, modify the following line in action.yml
+Create a folder called scr to store your Python Scripts.  If you are using a different folder, change the src/ in the code in actions.yml as below
 
 ```
 main: src/*.*   
@@ -157,4 +157,18 @@ Column B - Description: This will be the description of what piece of code was c
 Column C-  directory and file in which the code block as found
 Column D/E - Line Number and column end number of line of code
 
+8.  At the moment, the static analysis tool only looks for list.insert and list.append commands in the Scripts
+```
+import random
+a = []
+for x in range(1, 1000000):
+        random_number = random.randint(0,255)
+        a.insert(x, random_number)
 
+
+b = []
+for x in range(1, 1000000):
+        random_number = random.randint(0,255)
+        a.append(x, random_number)
+
+```
