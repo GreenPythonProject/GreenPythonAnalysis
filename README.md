@@ -125,6 +125,20 @@ jobs:
 5. Place your python files to scan in a specific folder.  Edit the following in action.yml if you are not using the default src/ folder
 
 ```
+name: "Green Python"
+description: "Demo for Green Python"
+
+runs:
+  using: node22
+  main: src/*.*
+
+queries:
+  disable-default-queries: true
+```
+
+If you are using a different folder for your Python scripts, modify the following line in action.yml
+
+```
 main: src/*.*   
 ```        
         
