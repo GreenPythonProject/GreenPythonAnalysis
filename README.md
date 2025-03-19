@@ -2,7 +2,8 @@
 
 GreenPython is a static analysis tool that scans Python Scripts for energy inefficient code
 
-** In your project, create a workflow folder as .github/workflows. Create a file called codeql-config.yml Copy the workflow below and insert it into a f
+** Instructions on how to use static analysis tool **]
+
 1.  Create a workflow folder called .github/workflows in the root of your project.
 2.  Create a file in the workflows folder called codeql-config.yml.
 3.  Copy the below to the .yml file
@@ -115,5 +116,19 @@ jobs:
       run: |
           echo "total json: ${{ steps.total-measurement-step.outputs.data-total-json }}"    
 
+4.  Create a action.yml file in the root directory and place the following code in it
+
+name: "Green Python"
+description: "Demo for Green Python"
+
+runs:
+  using: node22
+  main: src/*.*
+
+queries:
+  disable-default-queries: true
 
 
+5. Place your python files to scan in a specific folder.  Edit the following in action.yml if you are not using the default src/ folder
+
+ main: src/*.*   
