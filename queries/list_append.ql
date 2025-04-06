@@ -3,6 +3,7 @@
  * @name List Append
  * @description List Append found.
  * @kind problem
+ * @id python/list-append
  * @tags print, builtin
  * @severity warning
  */

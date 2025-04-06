@@ -3,6 +3,7 @@
  * @name List Insert
  * @description List Append found.
  * @kind problem
+ * @id python/list-insert
  * @tags security
  * @severity warning
  */
