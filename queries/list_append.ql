@@ -1,5 +1,5 @@
 /**
- * @id green-python
+ * @RuleID green-python
  * @name List Append
  * @description List Append found.
  * @kind problem
@@ -13,4 +13,4 @@
  
  from MethodCallNode insertCall
  where insertCall.getMethodName() = "append"
- select insertCall, "List Append Found"
+ select insertCall, "List Append is more energy efficient than using a list insert."
