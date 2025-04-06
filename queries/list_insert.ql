@@ -1,9 +1,8 @@
 /**
- * @RuleID green-python
+ * @id green-python
  * @name List Insert
  * @description Use list append instead of list insert..
  * @kind problem
- * @id python/list-insert
  * @tags security
  * @severity warning
  */

@@ -1,10 +1,9 @@
 /**
- * @RuleID green-python
+ * @id green-python
  * @name List Append
  * @description List Append is more energy efficient than using a list insert.
  * @kind problem
- * @id python/list-append
- * @tags print, builtin
+ * @tags security
  * @severity warning
  */
 

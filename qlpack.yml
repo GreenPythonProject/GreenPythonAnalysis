@@ -2,7 +2,7 @@
 library: false
 warnOnImplicitThis: false
 name: timh1975/greenpython
-version: 2.0.2
+version: 2.0.3
 dependencies:
   codeql/python-all: "*"
 
