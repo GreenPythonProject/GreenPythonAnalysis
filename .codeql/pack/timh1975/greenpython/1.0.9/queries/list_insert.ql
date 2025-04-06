@@ -1,5 +1,5 @@
 /**
- * @id green-python
+ * @RuleID green-python
  * @name List Insert
  * @description List Append found.
  * @kind problem
@@ -13,4 +13,4 @@
  
  from MethodCallNode insertCall
  where insertCall.getMethodName() = "insert"
- select insertCall, "List Insert Found"
+ select insertCall, "Use list append instead of list insert."
