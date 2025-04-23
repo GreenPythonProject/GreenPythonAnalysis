@@ -1,6 +1,14 @@
 # greenpython #
 
 ## GreenPython is a static analysis tool that scans Python Scripts for energy inefficient code ##
+## This project is currently a proof of concept as part of a university honours project.  ##
+## The following plans for this repo are to ##
+1.  Test the energy consumption of more Python libraries, data strucures, algorithms, and fucntion implementation using a Raspberry PI5 and PowerJoular software.
+2.  Establish which of these are the most energy efficient.
+3.  Increase the capacity of the static analysis tool to detect more energy inefficient code
+4.  Produce these results in GitHub docs
+
+I am to undertake this work during the summer of 2025
 
 **Instructions on how to use static analysis tool**
 
