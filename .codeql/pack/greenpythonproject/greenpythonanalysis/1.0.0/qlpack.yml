@@ -1,0 +1,9 @@
+---
+library: false
+warnOnImplicitThis: false
+name: greenpythonproject/greenpythonanalysis
+version: 1.0.0
+buildMetadata:
+  cliVersion: 2.20.2
+dependencies:
+  codeql/python-all: '*'

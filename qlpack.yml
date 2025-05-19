@@ -1,7 +1,7 @@
 ---
 library: false
 warnOnImplicitThis: false
-name: GreenPythonProject/GreenPythonAnalysis
+name: greenpythonproject/greenpythonanalysis
 version: 1.0.0
 dependencies:
   codeql/python-all: "*"
